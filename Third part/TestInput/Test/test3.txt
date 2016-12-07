@@ -1,0 +1,70 @@
+Polymino figures: 
+
+0
+Array performance:
+[ 0 , 0 ] 1 [ 0 , 1 ] 0 [ 0 , 2 ] 0 
+[ 1 , 0 ] 1 [ 1 , 1 ] 0 [ 1 , 2 ] 0 
+[ 2 , 0 ] 1 [ 2 , 1 ] 1 [ 2 , 2 ] 0 
+
+Group performances:
+ABBABCCDDD
+BCCBCDDAAA
+CDDCDAABBB
+DAADABBCCC
+CBBCBAADDD
+DCCDCBBAAA
+ADDADCCBBB
+BAABADDCCC
+
+1
+Array performance:
+[ 0 , 0 ] 1 [ 0 , 1 ] 1 [ 0 , 2 ] 1 
+[ 1 , 0 ] 0 [ 1 , 1 ] 0 [ 1 , 2 ] 0 
+[ 2 , 0 ] 0 [ 2 , 1 ] 0 [ 2 , 2 ] 0 
+
+Group performances:
+AAABCCCD
+BBBCDDDA
+CCCDAAAB
+DDDABBBC
+CCCBAAAD
+DDDCBBBA
+AAADCCCB
+BBBADDDC
+
+2
+Array performance:
+[ 0 , 0 ] 1 [ 0 , 1 ] 1 
+[ 1 , 0 ] 0 [ 1 , 1 ] 1 
+
+Group performances:
+AABBCDCD
+BBCCDADA
+CCDDABAB
+DDAABCBC
+CCBBADAD
+DDCCBABA
+AADDCBCB
+BBAADCDC
+
+3
+Array performance:
+[ 0 , 0 ] 0 [ 0 , 1 ] 1 
+[ 1 , 0 ] 0 [ 1 , 1 ] 1 
+
+Group performances:
+ABBCDD
+BCCDAA
+CDDABB
+DAABCC
+CBBADD
+DCCBAA
+ADDCBB
+BAADCC
+
+All valid sizes: 
+[ 2 , 6 ] 
+[ 3 , 4 ] 
+
+Area: 12
+

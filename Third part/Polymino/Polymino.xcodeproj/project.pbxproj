@@ -1,0 +1,296 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		901889381DE6814000B6A47A /* Field.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 901889361DE6814000B6A47A /* Field.cpp */; };
+		9018893B1DE7425600B6A47A /* State.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 901889391DE7425600B6A47A /* State.cpp */; };
+		9026BC541DF631F40010F1B3 /* Substring.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9026BC521DF631F40010F1B3 /* Substring.cpp */; };
+		902F9AD61DF1E5D800A3195D /* PolyminoComparative.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 902F9AD41DF1E5D800A3195D /* PolyminoComparative.cpp */; };
+		90ADC8C61DC6949900EAB2BA /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 90ADC8C51DC6949900EAB2BA /* main.cpp */; };
+		90E5B0A51DC736B50045E90F /* Coordinates.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 90E5B0991DC736B50045E90F /* Coordinates.cpp */; };
+		90E5B0A61DC736B50045E90F /* Errors.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 90E5B09B1DC736B50045E90F /* Errors.cpp */; };
+		90E5B0A91DC736B50045E90F /* Polymino.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 90E5B0A11DC736B50045E90F /* Polymino.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		90ADC8C01DC6949900EAB2BA /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		901889361DE6814000B6A47A /* Field.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Field.cpp; sourceTree = "<group>"; };
+		901889371DE6814000B6A47A /* Field.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Field.hpp; sourceTree = "<group>"; };
+		901889391DE7425600B6A47A /* State.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = State.cpp; sourceTree = "<group>"; };
+		9018893A1DE7425600B6A47A /* State.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = State.hpp; sourceTree = "<group>"; };
+		9026BC521DF631F40010F1B3 /* Substring.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Substring.cpp; sourceTree = "<group>"; };
+		9026BC531DF631F40010F1B3 /* Substring.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Substring.hpp; sourceTree = "<group>"; };
+		902F9AD41DF1E5D800A3195D /* PolyminoComparative.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PolyminoComparative.cpp; sourceTree = "<group>"; };
+		902F9AD51DF1E5D800A3195D /* PolyminoComparative.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = PolyminoComparative.hpp; sourceTree = "<group>"; };
+		90ADC8C21DC6949900EAB2BA /* Polymino */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Polymino; sourceTree = BUILT_PRODUCTS_DIR; };
+		90ADC8C51DC6949900EAB2BA /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		90E5B0991DC736B50045E90F /* Coordinates.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Coordinates.cpp; sourceTree = "<group>"; };
+		90E5B09A1DC736B50045E90F /* Coordinates.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Coordinates.hpp; sourceTree = "<group>"; };
+		90E5B09B1DC736B50045E90F /* Errors.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Errors.cpp; sourceTree = "<group>"; };
+		90E5B09C1DC736B50045E90F /* Errors.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Errors.hpp; sourceTree = "<group>"; };
+		90E5B0A11DC736B50045E90F /* Polymino.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Polymino.cpp; sourceTree = "<group>"; };
+		90E5B0A21DC736B50045E90F /* Polymino.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Polymino.hpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		90ADC8BF1DC6949900EAB2BA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		90ADC8B91DC6949900EAB2BA = {
+			isa = PBXGroup;
+			children = (
+				90ADC8C41DC6949900EAB2BA /* Polymino */,
+				90ADC8C31DC6949900EAB2BA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		90ADC8C31DC6949900EAB2BA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				90ADC8C21DC6949900EAB2BA /* Polymino */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		90ADC8C41DC6949900EAB2BA /* Polymino */ = {
+			isa = PBXGroup;
+			children = (
+				90ADC8C51DC6949900EAB2BA /* main.cpp */,
+				90E5B0991DC736B50045E90F /* Coordinates.cpp */,
+				90E5B09A1DC736B50045E90F /* Coordinates.hpp */,
+				90E5B09B1DC736B50045E90F /* Errors.cpp */,
+				90E5B09C1DC736B50045E90F /* Errors.hpp */,
+				90E5B0A11DC736B50045E90F /* Polymino.cpp */,
+				90E5B0A21DC736B50045E90F /* Polymino.hpp */,
+				901889361DE6814000B6A47A /* Field.cpp */,
+				901889371DE6814000B6A47A /* Field.hpp */,
+				901889391DE7425600B6A47A /* State.cpp */,
+				9018893A1DE7425600B6A47A /* State.hpp */,
+				902F9AD41DF1E5D800A3195D /* PolyminoComparative.cpp */,
+				902F9AD51DF1E5D800A3195D /* PolyminoComparative.hpp */,
+				9026BC521DF631F40010F1B3 /* Substring.cpp */,
+				9026BC531DF631F40010F1B3 /* Substring.hpp */,
+			);
+			path = Polymino;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		90ADC8C11DC6949900EAB2BA /* Polymino */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 90ADC8C91DC6949900EAB2BA /* Build configuration list for PBXNativeTarget "Polymino" */;
+			buildPhases = (
+				90ADC8BE1DC6949900EAB2BA /* Sources */,
+				90ADC8BF1DC6949900EAB2BA /* Frameworks */,
+				90ADC8C01DC6949900EAB2BA /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Polymino;
+			productName = Polymino;
+			productReference = 90ADC8C21DC6949900EAB2BA /* Polymino */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		90ADC8BA1DC6949900EAB2BA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Rishat Valitov";
+				TargetAttributes = {
+					90ADC8C11DC6949900EAB2BA = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 90ADC8BD1DC6949900EAB2BA /* Build configuration list for PBXProject "Polymino" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 90ADC8B91DC6949900EAB2BA;
+			productRefGroup = 90ADC8C31DC6949900EAB2BA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				90ADC8C11DC6949900EAB2BA /* Polymino */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		90ADC8BE1DC6949900EAB2BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				90E5B0A61DC736B50045E90F /* Errors.cpp in Sources */,
+				901889381DE6814000B6A47A /* Field.cpp in Sources */,
+				902F9AD61DF1E5D800A3195D /* PolyminoComparative.cpp in Sources */,
+				90E5B0A91DC736B50045E90F /* Polymino.cpp in Sources */,
+				90ADC8C61DC6949900EAB2BA /* main.cpp in Sources */,
+				90E5B0A51DC736B50045E90F /* Coordinates.cpp in Sources */,
+				9018893B1DE7425600B6A47A /* State.cpp in Sources */,
+				9026BC541DF631F40010F1B3 /* Substring.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		90ADC8C71DC6949900EAB2BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		90ADC8C81DC6949900EAB2BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		90ADC8CA1DC6949900EAB2BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		90ADC8CB1DC6949900EAB2BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		90ADC8BD1DC6949900EAB2BA /* Build configuration list for PBXProject "Polymino" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90ADC8C71DC6949900EAB2BA /* Debug */,
+				90ADC8C81DC6949900EAB2BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		90ADC8C91DC6949900EAB2BA /* Build configuration list for PBXNativeTarget "Polymino" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90ADC8CA1DC6949900EAB2BA /* Debug */,
+				90ADC8CB1DC6949900EAB2BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 90ADC8BA1DC6949900EAB2BA /* Project object */;
+}
